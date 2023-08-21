@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="Slogo.jpeg">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Slogo.jpeg" alt="Spotify">Spotify</li>
+            <li><a class="list" href="#Home">Home</a></li>
+            <li><a class="list" href="#About">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="music/COVER1.jpeg" alt="1">
+                    <span class ="songName">Saudebaazi</span>
+                    <span class="songlistplay"><span class="timestamp">05:56<i id = "0" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music/COVER2.jpeg" alt="1">
+                    <span class ="songName">Night Changes</span>
+                    <span class="songlistplay"><span class="timestamp">04:00<i id = "1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music/COVER3.jpeg" alt="1">
+                    <span class ="songName">My Life Is Going On</span>
+                    <span class="songlistplay"><span class="timestamp">03:35<i id = "2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music/COVER4.jpeg" alt="1">
+                    <span class ="songName">Alag Aasmaan</span>
+                    <span class="songlistplay"><span class="timestamp">03:32<i id = "3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music/COVER5.jpeg" alt="1">
+                    <span class ="songName">Kun Faya Kun</span>
+                    <span class="songlistplay"><span class="timestamp">07:53<i id = "4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music/COVER6.jpeg" alt="1">
+                    <span class ="songName">Saiyyan</span>
+                    <span class="songlistplay"><span class="timestamp">05:09<i id = "5" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music/COVER7.jpeg" alt="1">
+                    <span class ="songName">Ishq Sufiana</span>
+                    <span class="songlistplay"><span class="timestamp">05:27<i id = "6" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music/COVER8.jpeg" alt="1">
+                    <span class ="songName">Iktara</span>
+                    <span class="songlistplay"><span class="timestamp">04:13<i id = "7" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="music/COVER9.jpeg" alt="1">
+                    <span class ="songName">Give Me Some Sunshine</span>
+                    <span class="songlistplay"><span class="timestamp">04:07<i id = "8" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-sharp fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-sharp fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="50px" alt="playing" id="gif"><span id="masterSongName">Saudebaazi</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9f66dfd15b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
